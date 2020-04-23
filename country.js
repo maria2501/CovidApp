@@ -12,8 +12,8 @@ $(function(){
 
         var selectedCountry = result[country];
         console.log(selectedCountry);
-
-        for(var i=0;i<selectedCountry.length;i++){
+        
+       for(var i=0;i<selectedCountry.length;i++){
            
             var row = `<tr>
             <th scope="row">${selectedCountry[i].date}</th>
