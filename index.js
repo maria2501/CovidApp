@@ -18,6 +18,12 @@ $(function () {
             no++;
 
         }
+        
+        var Confirmed1 =0;
+        for (var Confirmed in result){
+
+            $("data1").append(Confirmed1);
+        } 
 
     });
 
