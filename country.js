@@ -6,6 +6,9 @@ $(function(){
     var country = urlParams.get('country');
     $("#country").html(country);
 
+    var confirmed = urlParams.get('confirmed');
+    $("#confirmed").html(confirmed);
+
     var url = "https://pomber.github.io/covid19/timeseries.json";
 
     $.getJSON(url, function (result) {
